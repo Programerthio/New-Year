@@ -142,35 +142,35 @@ img {
 
 @media screen and (max-width: 500px) {
     .button {
-        margin-left: 33vh;
+        margin-left: 31vh;
 
     }
 }
 
 @media screen and (max-width: 450px) {
     .button {
-        margin-left: 30vh;
+        margin-left: 28vh;
 
     }
 }
 
 @media screen and (max-width: 400px) {
     .button {
-        margin-left: 25vh;
+        margin-left: 22vh;
 
     }
 }
 
 @media screen and (max-width: 360px) {
     .button {
-        margin-left: 20vh;
+        margin-left: 18vh;
 
     }
 }
 
 @media screen and (max-width: 330px) {
     .button {
-        margin-left: 19vh;
+        margin-left: 16vh;
 
     }
 }

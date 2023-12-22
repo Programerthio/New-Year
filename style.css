@@ -18,7 +18,6 @@ h1 {
 
 .button {
     position: relative;
-    margin-left: 90vh;
     width: 120px;
     height: 40px;
     background-color: #000;
@@ -33,6 +32,8 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 30px;
+    margin-left: auto; /* Membuat margin kiri dan kanan otomatis menjadi 0 */
+    margin-right: auto; /* Membuat margin kiri dan kanan otomatis menjadi 0 */
 }
 
 .button::before {
@@ -98,87 +99,5 @@ img {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .button {
-        margin-left: 80vh;
 
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .button {
-        margin-left: 65vh;
-
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .button {
-        margin-left: 55vh;
-
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .button {
-        margin-left: 50vh;
-
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .button {
-        margin-left: 45vh;
-
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .button {
-        margin-left: 40vh;
-
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .button {
-        margin-left: 31vh;
-
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .button {
-        margin-left: 28vh;
-
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .button {
-        margin-left: 22vh;
-
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .button {
-        margin-left: 18vh;
-
-    }
-}
-
-@media screen and (max-width: 330px) {
-    .button {
-        margin-left: 16vh;
-
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .button {
-        margin-left: 15vh;
-
-    }
-}
 
